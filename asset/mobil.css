@@ -1,0 +1,233 @@
+@media (max-width:500px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      nav {
+        position: fixed;
+        width: 100vw;
+        height: 50px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(0, 0, 0, 0.509);
+        gap: 0px;
+        font-family: "Lato", sans-serif;
+      }
+      ul {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        list-style-type: none;
+      }
+      a {
+        text-decoration: none;
+      }
+      li {
+        font-size: 10px;
+        margin: 20px;
+        color: white;
+      }
+      nav img {
+        width: 40px;
+      }
+      .zone_logo {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+      }
+      nav p {
+        font-weight: 900;
+        font-size: 30px;
+        color: white;
+      }
+      i {
+        margin: 10px;
+      }
+      body {
+        background-color: rgb(254, 226, 101);
+      }
+      header {
+        font-family: "Dancing Script", cursive;
+        width: 100vw;
+        height: 50vh;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      video {
+        width: 0vw;
+      }
+      .intro {
+        font-size: 50px;
+        position: absolute;
+        color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+      }
+      button {
+        background-color: rgb(254, 226, 101);
+        padding: 20px 30px;
+        border-radius: 20px;
+        font-size: 20px;
+      }
+      .card1 img ,.card2 img{
+        width: 200px;
+      }
+      section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 100px;
+      }
+      .card1,
+      .card2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 400px;
+        height: 200px;
+        border: 1px solid rgb(219, 219, 219);
+        background-color: white;
+        box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.514);
+      }
+      h2 {
+        text-align: center;
+      }
+      .box1 p,
+      .box2 p {font-size: 10px;
+        text-align: justify;
+        margin: 10px;
+      }
+      .box1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0px;
+      }
+      .box2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0px;
+      }
+      .card1:hover {
+        box-shadow: 3px 2px 10px;
+      
+        cursor: pointer;
+        transform: rotate(360deg);
+        transition: 2s;
+      }
+      .card2:hover {
+        box-shadow: 3px 2px 10px;
+      
+        cursor: pointer;
+        transform: rotate(360deg);
+        transition: 2s;
+      }
+      body {
+        background-color: rgb(254, 226, 101);
+        font-family: "Dancing Script", cursive;
+      }
+      .container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        background-color: rgb(254, 226, 101);
+      }
+      .box3,
+      .box4,
+      .box5,
+      .box6,
+      .box7 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: justify;
+        margin: 20px;
+      }
+      .card3,
+      .card4,
+      .card5,
+      .card6,
+      .card7 {
+        margin: 20px;
+        border: 1px solid rgb(206, 206, 206);
+        width: 400px;
+        height: 550px;
+        background-color: white;
+        box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.514);
+        clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+      }
+      .card3:hover,
+      .card4:hover,
+      .card5:hover,
+      .card6:hover,
+      .card7:hover {
+        transform: rotate(360deg);
+        transition: 2s;
+        box-shadow: 3px 2px 10px;
+      }
+      button {
+        padding: 1px 20px;
+        font-size: 20px;
+      }
+      button:hover {
+        cursor: pointer;
+      }
+      footer .container {
+        display: flex;
+        height: 400px;
+        background-color: white;
+      }
+      
+      .contact i {
+        font-size: 40px;
+        margin: 10px;
+      }
+      footer img {
+        width: 500px;
+      }
+      footer img:hover {
+        transition: 2s;
+        transform: rotate(360deg);
+      }
+      body {
+        background-color: rgb(254, 226, 101);
+        font-family: "Dancing Script", cursive;
+      }
+      .address,
+      .tel,
+      .mail {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px;
+      }
+      .containerCopy {
+        font-size: 20px;
+        display: flex;
+        justify-content: flex-end;
+        margin: 20px;
+      }
+      .contact {
+        display: flex;
+        margin-left: 200px;
+      }
+      .contact p {
+        font-size: 20px;
+      }
+}
